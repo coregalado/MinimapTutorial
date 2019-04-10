@@ -35,6 +35,6 @@ public class CoinBehavior : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(transform.root.gameObject);
+        Destroy(transform.parent.gameObject);
     }
 }
